@@ -1,0 +1,90 @@
+.container {
+  width: 1000px;
+  margin: 15px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  background-color: white;
+}
+
+h1 {
+  font-family :"Montserrat", serif;
+  font-weight: 1500;
+  font-size: 250;
+  text-align: center;
+  background-color: #E4C1F9;
+  color: #08080a;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #E4C1F9;
+}
+
+p {
+  font-family: "Montserrat", "sans-serif";
+  color: #8b8b9a;
+  font-size: 20px;
+  text-align: center;
+  padding-right: 35px;
+}
+
+.card {
+  margin: 15px;
+  padding-left: 85px;
+  padding-right: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(25, 24, 24);
+  border-radius: 20px;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.link-image {
+  width: 35px;
+  height: auto;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  align-items: center;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 20px;
+  background-color: #E4C1F9;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #c896e8; /
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
